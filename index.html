@@ -14,40 +14,139 @@
     <title>HomeWork 12</title>
   </head>
   <body>
-
-
     <div class="conteiner">
+      <!-- header -->
+
+      <header>
+        <img src="images/header logo.png" alt=" header logo" />
+
+        <a href="index.html">Home</a>
+        <a href="#">Product</a>
+        <a class="active" href="#">Contact</a>
+
+        <img src="images/haeder vector.png" alt="vector" />
+      </header>
+
+      <!-- form Section -->
+
+      <form action="">
 
 
-        <!-- header -->
-
-        <header>
-
-            <img src="images/header logo.png" alt=" header logo">
-
-
-            <a href="index.html">Home</a>
-            <a href="#">Product</a>
-            <a class="active" href="#">Contact</a>
-
-
-            <img src="images/haeder vector.png" alt="vector">
-
-        </header>
-
-
-        <!-- form Section -->
-
+        <h1 class="title">Contact Us</h1>
 
 
 
+        <div class="name-input">
+          <div class="input-box">
+            <label for="firstname">First Name</label>
+            <input class="inputrow" type="text" name="firstname" id="firstname" value="" placeholder="First Name"/>
+          </div>
+
+          <div class="input-box">
+            <label for="lastname">Last Name</label>
+            <input class="inputrow" type="text" name="last name" id="lastname" value=""  placeholder="Last Name"/>
+          </div>
+        </div>
+
+
+        
+          
+         <div class="second-input">
+            <div class="input-2">
+                <label  for="age">Age</label>
+               <input class="inputrow" type="number" name="age" id="age" value="" placeholder="Age" />
+               </div> 
+    
+    
+             <div class="input-2">
+                <label  for="email">Email</label>
+                <input class="inputrow" type="email" name="email" id="email" value="" placeholder="Email" />
+             </div>
+         </div>
 
 
 
 
+         <h3>The schedule of work you are interested in</h3>
 
 
+         
+
+
+        <div class="radio">
+            <input type="radio" name="time" id="full" value="full">
+            <label for="full">Full-time</label>
+        
+            <input type="radio" name="time" id="part" value="part">
+        <label for="part">Part-time</label>
+        
+
+        <input type="radio" name="time" id="remote" value="remote">
+        <label for="remote">Remote</label>
+        
+
+        </div>
+
+
+
+        <h3>
+            Select the programming languages, you know
+        </h3>
+
+
+        <div class="checkbox">
+
+
+            
+            <input type="checkbox" id=python" name="angular">
+            <label for="time">Angular</label>
+
+            <input type="checkbox" id="python" name="python">
+            <label for="time">Python</label>
+
+            <input type="checkbox" id="javascript" name="javascript">
+            <label for="time">Javascript</label>
+         
+
+
+        </div>
+
+
+
+        <h3>Attach any supporting documents (resume, CV, cover letter, etc.) </h3>
+
+
+        <div class="file">
+            <label for="file"></label>
+            <input class="choosefile" type="file" id="file" name="file">
+
+        </div>
+
+
+
+
+       <div class="confirm">
+        <input class="submit" type="submit" value="SEND MESSAGE">
+        <button class="reset" type="reset">RESET</button>
+
+       </div>
+
+
+      </form>
+
+      <!-- footer -->
+
+      
+        <footer>
+
+            <img src="images/facebook.png" alt="#">
+            <img src="images/instagrm.png" alt="#">
+            <img src="images/twiter.png" alt="#">
+            <img src="images/youtube.png" alt="#">
+
+
+
+        </footer>
     </div>
-
   </body>
 </html>

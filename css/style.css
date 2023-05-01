@@ -31,3 +31,168 @@ header a{
 
 
 /* form Section */
+
+form{
+    padding-top: 114px;
+}
+
+.inputrow{
+    background-color: #B3E9F5;
+    border: none;
+    height: 58px;
+    margin-top: 10px;
+
+}
+
+
+
+.title{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #13345B;
+    font-weight: 700;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-size: 1.25rem;
+    color: #13345B;
+    padding-top: 88px;
+}
+
+
+.name-input{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.second-input{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 64px;
+}
+
+
+.input-2{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-size: 1.25rem;
+    color: #13345B;
+    
+
+}
+
+
+h3{
+    display: flex;
+    color: #15C1E7;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 120px 130px;
+}
+
+
+.radio{
+    display: flex;
+    
+    gap: 108px;
+    color: #13345B;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-left: 130px
+}
+
+
+
+
+.checkbox{
+    display: flex;
+    
+    gap: 108px;
+    color: #13345B;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-left: 130px
+
+}
+
+
+.file{
+    align-items: center;
+    display: flex;
+    margin: 120px 130px;
+    
+    
+}
+
+
+.confirm{
+    display: flex;
+    margin: 120px 130px;
+    gap: 30px;
+}
+
+
+.submit{
+    width: 45%;
+    height: 108px;
+    background-color: #FDD504;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.reset{
+    width: 45%;
+    height: 108px;
+    background-color: #15C1E7;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+footer{
+    background-color: #13345B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 200px;
+}
