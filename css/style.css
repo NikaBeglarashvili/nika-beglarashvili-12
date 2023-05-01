@@ -1,0 +1,33 @@
+.conteiner{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+
+}
+
+
+
+header{
+    width: 100%;
+    background-color: #13345B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+header a{
+    color: #FDD504;
+    font-size: 2rem;
+
+    
+}
+
+.active{
+    color:#FD0404;
+    
+}
+
+
+/* form Section */
